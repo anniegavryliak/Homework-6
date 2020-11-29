@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Contact Manager</title>
+</head>
+<body>
+    <div class="header">
+        <p class="title">Contact Manager</p>
+    </div>
+
+    <div class="main">
+        <form>
+           <p> First name <input type="text" name="first_name" size="30" maxlength="5" /></p>
+           <br/>
+
+           <p> Last name <input type="text" name="last_name" size="30" maxlength="5" /></p>
+           <br/>
+
+           <p> Address <br />
+            <br />
+            <textarea cols="40" rows="10" name="Address" style="resize: none;"></textarea></p>
+            <br/>
+
+           <p>City <input type="text" name="city" size="30" maxlength="2" /></p>
+           <br/>
+
+           <p>State   <select name="state">
+                        <option value="state000">-Select-</option>
+                        <option value="state001">Ukraine</option>
+                        <option value="state002">Russia</option>
+                        <option value="state003">Germany</option>
+                        <option value="state004">United Kingdom</option>
+                        <option value="state005">Switzerland</option>
+                        <option value="state006">India</option>
+                    </select></p>
+           <br />
+
+           <p>Zip <input type="text" name="zip" size="30" maxlength="2" /></p>
+           <br/>
+
+            <p>Home Phone <input type="text" name="home_phone" size="30" maxlength="2" /></p>
+            <br/>
+
+            <p>Work Phone <input type="text" name=" work_phone" size="30" maxlength="2" /></p>
+            <br/>
+
+            <p>Fax Number <input type="text" name="fax_number" size="30" maxlength="2" /></p>
+            <br/>
+
+            <p><legend>Website:</legend>
+            <br/>
+            URL
+            <input type="text" name="URL" />
+            <br/>
+            <br/>
+            Link Name
+            <input type="text" name="Link Name" /></p>
+            <br />
+            
+            <p>Email Address <input type="text" name="email_address" size="30" maxlength="2" /></p>
+            <br/>
+
+            <p>When is the best time to contact you?</p>
+            <p class="time-item">Morning
+            <input type="radio" name="time" value="Morning" checked/>
+            <br />
+            Afternoon
+            <input type="radio" name="time" value="Afternoon" />
+            <br />
+            Evening
+            <input type="radio" name="time" value="Evening" /></p>
+            <br />
+
+            <p>When is the best way to contact you?</p>
+            <p class="way-item"></p>Phone
+            <input type="radio" name="way" value="Phone" checked/>
+            <br />
+            Email
+            <input type="radio" name="way" value="Email" />
+            <br />
+            Fax
+            <input type="radio" name="way" value="Fax" /></p>
+            <br />
+
+            <p> Massager <br />
+            <br />
+            <textarea cols="40" rows="10" name="Massager" style="resize: none;"></textarea></p>
+        </form>
+    </div>
+
+    <div class="bottom">
+        <form>
+            <input class="bottom__btn" type="submit" name="submit" value="Submit" />
+            <input class="bottom__btn" type="reset" name="reset" value="Reset" />
+        </form>
+    </div>
+</body>
+</html>

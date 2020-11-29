@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: left;
+    height: 40px;
+    background-color: rgb(69, 255, 62);
+}
+
+.title{
+    margin-top: 5px;
+    color: rgb(53, 53, 53);
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.main   {
+    margin: 30px 0 20px 20px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: rgb(179, 179, 179);
+}
+
+.bottom__btn{
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    border:  rgb(163, 250, 136);
+    border-radius: 10px;
+    background: rgb(163, 250, 136);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
